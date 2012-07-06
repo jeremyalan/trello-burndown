@@ -1,4 +1,4 @@
-**NOTE:** This project is not in any affiliated with the Trello product.  However, it's a great product, and if you use a digital Kanban board and have not used it, I strongly consider you check it out at http://trello.com.
+**NOTE:** This project is not in any way affiliated with the Trello product.  However, it's a great product, and if you use a digital Kanban board and have not used it, I strongly consider you check it out at http://trello.com.
 
 Background
 ----------
