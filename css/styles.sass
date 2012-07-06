@@ -1,0 +1,110 @@
+input
+   padding: 4px
+   border: 1px solid #999
+   border-radius: 4px
+
+ul
+   list-style: none
+
+.clear
+   clear: both
+
+#app
+   display: none
+
+#logout
+   float: right
+
+a
+   font-weight: bold
+   color: #333
+   text-decoration: none
+
+a:hover
+   text-decoration: underline
+
+#deadlines
+   #start-date, #end-date
+      float: left
+      width: 200px
+
+      input
+         width: 190px
+
+      label
+         width: 200px
+         color: #555
+         font-size: 0.9em
+
+   #end-date
+      margin-left: 20px
+
+#boards, #lists
+   margin-top: 1em
+   width: 50%
+
+   label
+      color: #555
+      font-size: 0.9em
+      padding: 10px
+
+   ul
+      margin: 0 5px
+      padding: 5px
+      border: 1px solid #D8D8D8
+      border-radius: 4px
+      height: 10em
+      overflow: auto
+
+#boards
+   float: left
+
+   li
+      line-height: 1.5em
+      padding: 0 3px
+
+   li.selected
+      background: #7294BC
+      border-radius: 4px
+
+      a
+         color: white !important
+
+#lists
+   float: right
+
+   .header-row ~ li + li
+      border-top: 1px solid #D8D8D8
+
+   li
+      clear: both
+
+   .header-row
+      font-size: 0.9em
+      color: #555
+      margin-left: 11px
+
+      .todo, .done
+         text-decoration: underline
+
+   .todo, .done
+      float: left
+      width: 100px
+      text-align: center
+
+      input
+         vertical-align: middle
+
+#create-burndown-chart
+   margin: 10px 5px 20px 5px
+
+   button
+      width: 100%
+
+#burndown-progress
+   width: 50%
+   margin: 0 auto
+
+   label
+      font-size: 0.9em
+      color: #555

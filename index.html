@@ -1,0 +1,91 @@
+<! DOCTYPE html>
+<html>
+   <head>
+      <title>Trello Burndown Chart</title>
+
+      <link href="css/styles.css" rel="stylesheet" />
+      <link href="css/jquery-ui-1.8.21.smoothness.css" rel="stylesheet" />
+
+      <!-- The client library requires jQuery  -->
+      <script src="js/ots/jquery-1.7.1.min.js"></script>
+      <script src="js/ots/underscore.js"></script>
+      <script src="js/ots/backbone.js"></script>
+      <script src="js/ots/trello.js"></script>
+      <script src="js/ots/highcharts.js"></script>
+      <script src="js/ots/jquery-ui.min.js"></script>
+
+      <script src="js/App/init.js" type="text/javascript"></script>
+
+      <!-- Models -->
+      <script src="js/App/Model/Login.js" type="text/javascript"></script>
+      <script src="js/App/Model/Board.js" type="text/javascript"></script>
+      <script src="js/App/Model/SelectBoard.js" type="text/javascript"></script>
+      <script src="js/App/Model/SelectLists.js" type="text/javascript"></script>
+      <script src="js/App/Model/SelectListsItem.js" type="text/javascript"></script>
+
+      <!-- Views -->
+      <script src="js/App/View/LoginView.js" type="text/javascript"></script>
+      <script src="js/App/View/BoardView.js" type="text/javascript"></script>
+      <script src="js/App/View/SelectBoardView.js" type="text/javascript"></script>
+      <script src="js/App/View/SelectListsView.js" type="text/javascript"></script>
+      <script src="js/App/View/SelectListsItemView.js" type="text/javascript"></script>
+
+      <!-- Templates -->
+      <script src="js/App/View/Templates/LoginTemplate.js" type="text/javascript"></script>
+      <script src="js/App/View/Templates/BoardTemplate.js" type="text/javascript"></script>
+      <script src="js/App/View/Templates/SelectBoardTemplate.js" type="text/javascript"></script>
+      <script src="js/App/View/Templates/SelectListsTemplate.js" type="text/javascript"></script>
+      <script src="js/App/View/Templates/SelectListsItemTemplate.js" type="text/javascript"></script>
+
+      <script src="js/App/Controller.js" type="text/javascript"></script>
+   </head>
+   <body>
+      <div id="connect">
+         <a href="#">Click here to connect to Trello</a>
+      </div>
+
+      <div id="app">
+         <div id="logout">
+            <a href="#">Logout</a>
+         </div>
+         <div id="deadlines">
+            <div id="start-date">
+               <input type="text" name="StartDate" placeholder="mm/dd/yyyy" />
+               <label>Start Date</label>
+            </div>
+            <div id="end-date">
+               <input type="text" name="EndDate" placeholder="mm/dd/yyyy" />
+               <label>End Date</label>
+            </div>
+         </div>
+         <div class="clear"></div>
+
+         <div id="boards">
+            <label>Boards</label>
+            <div id="boards-inner">
+               <ul></ul>
+            </div>
+         </div>
+         <div id="lists">
+            <div class="header-row">
+               <div class="todo">To-Do</div>
+               <div class="todo">Done</div>
+            </div>
+            <div class="clear"></div>
+
+            <div id="lists-inner">
+               <ul></ul>
+            </div>
+         </div>
+         <div class="clear"></div>
+
+         <div id="create-burndown-chart">
+            <button type="button">
+               Create burndown chart
+            </button>
+         </div>
+
+         <div id="burndown-chart"></div>
+      </div>
+   </body>
+</html>

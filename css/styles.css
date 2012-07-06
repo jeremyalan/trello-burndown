@@ -1,0 +1,93 @@
+input {
+  padding: 4px;
+  border: 1px solid #999999;
+  border-radius: 4px; }
+
+ul {
+  list-style: none; }
+
+.clear {
+  clear: both; }
+
+#app {
+  display: none; }
+
+#logout {
+  float: right; }
+
+a {
+  font-weight: bold;
+  color: #333333;
+  text-decoration: none; }
+
+a:hover {
+  text-decoration: underline; }
+
+#deadlines #start-date, #deadlines #end-date {
+  float: left;
+  width: 200px; }
+  #deadlines #start-date input, #deadlines #end-date input {
+    width: 190px; }
+  #deadlines #start-date label, #deadlines #end-date label {
+    width: 200px;
+    color: #555555;
+    font-size: 0.9em; }
+#deadlines #end-date {
+  margin-left: 20px; }
+
+#boards, #lists {
+  margin-top: 1em;
+  width: 50%; }
+  #boards label, #lists label {
+    color: #555555;
+    font-size: 0.9em;
+    padding: 10px; }
+  #boards ul, #lists ul {
+    margin: 0 5px;
+    padding: 5px;
+    border: 1px solid #d8d8d8;
+    border-radius: 4px;
+    height: 10em;
+    overflow: auto; }
+
+#boards {
+  float: left; }
+  #boards li {
+    line-height: 1.5em;
+    padding: 0 3px; }
+  #boards li.selected {
+    background: #7294bc;
+    border-radius: 4px; }
+    #boards li.selected a {
+      color: white !important; }
+
+#lists {
+  float: right; }
+  #lists .header-row ~ li + li {
+    border-top: 1px solid #d8d8d8; }
+  #lists li {
+    clear: both; }
+  #lists .header-row {
+    font-size: 0.9em;
+    color: #555555;
+    margin-left: 11px; }
+    #lists .header-row .todo, #lists .header-row .done {
+      text-decoration: underline; }
+  #lists .todo, #lists .done {
+    float: left;
+    width: 100px;
+    text-align: center; }
+    #lists .todo input, #lists .done input {
+      vertical-align: middle; }
+
+#create-burndown-chart {
+  margin: 10px 5px 20px 5px; }
+  #create-burndown-chart button {
+    width: 100%; }
+
+#burndown-progress {
+  width: 50%;
+  margin: 0 auto; }
+  #burndown-progress label {
+    font-size: 0.9em;
+    color: #555555; }
