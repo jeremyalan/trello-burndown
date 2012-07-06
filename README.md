@@ -6,7 +6,7 @@ There are other similar tools available, but most of these solutions required a 
 
 Overview
 --------
-Trello Burndown Chart is a web-based application that allows you to render burndown charts based on task information from a Trello taskboard.  The history of each card is inspected to determine when it was created, and if/when it was completed in order to create a time-based view of tasks remaining over a specified period of time.
+Trello Burndown Chart is a web-based application that allows you to render burndown charts using the Trello API.  The history of each card is inspected to determine when it was created, and if/when it was completed in order to create a time-based view of tasks remaining over a specified period of time.
 
 How to install
 --------------
