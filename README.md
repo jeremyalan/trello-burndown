@@ -1,3 +1,5 @@
+NOTE: This project is not in any affiliated with the Trello product.  However, it's a great product, and if you use a digital Kanban board and have not used it, I strongly consider you check it out at http://trello.com.
+
 Background
 ----------
 A burndown chart is a useful visual aid used by many Agile teams (especially those practicing Scrum or other sprint-based methodologies), in order to get a clear picture of how much work is remaining before a particular deadline, and whether they will be able to meet their goals at their current pace.  This allows the team to make informed decisions on whether they need to limit the number of features they plan to release in the current sprint (or bring in more resources, etc.), or whether they have the capacity to complete more work than they originally planed.
